@@ -1,0 +1,60 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* @media screen and (max-width: 480px) { }*/
+
+nav {
+  color: white;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+nav img {
+  width: 150px;
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header img {
+  width: 40px;
+}
+
+.shopee {
+  width: 90px;
+}
+
+.wa {
+  width: 30px;
+  padding-top: 10px;
+}
+
+/* card */
+
+.container-card {
+  width: 100vw;
+  padding: 22px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+p {
+  cursor: default;
+}
